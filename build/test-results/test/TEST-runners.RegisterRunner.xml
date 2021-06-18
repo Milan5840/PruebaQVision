@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.RegisterRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-F2AEM37" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/register.feature:5 ?[0m# Realizare el registro de un usuario en la pagina web
+
+1 Scenarios (?[31m1 failed?[0m)
+3 Steps (?[31m1 failed?[0m, ?[36m2 skipped?[0m)
+0m0,985s
+
+java.lang.NullPointerException
+	at net.serenitybdd.screenplay.actors.OnStage.anActorIsOnStage(OnStage.java:41)
+	at net.serenitybdd.screenplay.actors.OnStage.theActorCalled(OnStage.java:32)
+	at stepdefinitions.RunnerStepDefinitions.cuando_Santiago_este_en_la_plataforma_ire_a_registrarme(RunnerStepDefinitions.java:21)
+	at ?.Cuando Santiago este en la plataforma ire a registrarme(src/test/resources/features/register.feature:6)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

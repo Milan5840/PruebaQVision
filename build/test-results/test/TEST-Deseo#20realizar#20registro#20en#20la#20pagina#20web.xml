@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Deseo realizar registro en la pagina web" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-06-18T03:47:58" hostname="DESKTOP-F2AEM37" time="0.465">
+  <properties/>
+  <testcase name="Realizare el registro de un usuario en la pagina web" classname="Deseo realizar registro en la pagina web" time="0.465">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at net.serenitybdd.screenplay.actors.OnStage.anActorIsOnStage(OnStage.java:41)
+	at net.serenitybdd.screenplay.actors.OnStage.theActorCalled(OnStage.java:32)
+	at stepdefinitions.RunnerStepDefinitions.cuando_Santiago_este_en_la_plataforma_ire_a_registrarme(RunnerStepDefinitions.java:21)
+	at ✽.Cuando Santiago este en la plataforma ire a registrarme(src/test/resources/features/register.feature:6)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

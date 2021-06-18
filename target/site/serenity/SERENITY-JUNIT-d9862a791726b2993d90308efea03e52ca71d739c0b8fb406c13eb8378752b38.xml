@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Deseo realizar registro en la pagina web" skipped="0" tests="1" time="0.48" timestamp="2021-06-17 10:47:58"><testcase name="Realizare el registro de un usuario en la pagina web"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+stepdefinitions.RunnerStepDefinitions.cuando_Santiago_este_en_la_plataforma_ire_a_registrarme(RunnerStepDefinitions.java:21)&#13;
+✽.Cuando Santiago este en la plataforma ire a registrarme(src/test/resources/features/register.feature:6)&#13;
+</system-err></testcase></testsuite>
